@@ -15,7 +15,7 @@ public class LoginController {
         return "login/login";
     }
 
-    @GetMapping("/home")
+    @GetMapping("/home`")
 	public String goHome(HttpServletRequest request) {
 		return "content/home";
 	}
